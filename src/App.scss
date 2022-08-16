@@ -1,0 +1,57 @@
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  //background-color: rgb(58, 57, 57);
+
+  .header {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 0 10px;
+    background: rgb(43, 43, 43);
+    border-bottom: 1px solid rgb(48, 48, 48);
+  }
+
+  .container {
+    background-color: cadetblue;
+
+    .test-resize-block {
+      border: 1px solid rgb(28, 135, 201);
+      height: 50px;
+      background-color: rgb(238, 238, 238);
+      //padding: 10px;
+      //width: 300px;
+      //resize: both;
+      //overflow: auto;
+    }
+  }
+
+  .footer {
+
+  }
+}
